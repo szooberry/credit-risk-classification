@@ -102,6 +102,7 @@ Model 2 performs better than Model 1 when it comes to predicting risky loans con
 I would recommend model 2 since it has a recall score of 1.00 compared to a recall score of 0.89 for model 1.
 
 * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+
 It is more important to correctly predict actual high-risk loans (1's) which is indicated by the recall score, than to correct for false-positives which is indicated by the precision score.
 
 Since model 2 has a 1.00 recall score, despite the low precision score, I would recommend this model.
